@@ -1,16 +1,12 @@
 import gpt_2_simple as gpt2
 from datetime import datetime
 import tweepy
+import twitter_credentials as tc
 import random
 import time
 
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_token_secret = ''
-
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.OAuthHandler(tc.consumer_key, tc.consumer_secret)
+auth.set_access_token(tc.access_token, tc.access_token_secret)
 
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
