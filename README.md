@@ -44,7 +44,7 @@ Once you have your tweets, follow the steps in the [Colaboratory Notebook](https
 
 Note that without a lot of data, the model might overfit and output existing tweets, if that’s the case, you may want to train for fewer steps (between 200-500)
 
-##TODO
+## TODO
 Automate the model refining and tweets posting using Google Cloud Platform Services.
 
 ## License
