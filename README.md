@@ -1,4 +1,4 @@
-# OpenAI gpt2 twitter bot
+# open ai gpt2 twitter bot
 
 A simple twitter bot, trained on [this](https://github.com/zarveyy/openai-gtp2-twitter-bot/blob/main/Train_a_GPT_2_Model_on_Tweets.ipynb) openai gpt-2-simple model.
 
@@ -38,12 +38,11 @@ if __name__ == "__main__":
     for user in ["TwitterUsername"]:
         download_all_tweets(user)
 ```
-Output goes in downloaded_tweets
+Output goes in downloaded_tweets.txt
 
-## Contributing
-Pull requests are welcome. This is a very simple "template"
+Once you have your tweets, follow the steps in the [Colaboratory Notebook](https://github.com/zarveyy/openai-gtp2-twitter-bot/blob/main/Train_a_GPT_2_Model_on_Tweets.ipynb)
 
-
+Note that without a lot of data, the model might overfit and output existing tweets, if that’s the case, you may want to train for fewer steps (between 200-500)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
