@@ -19,7 +19,7 @@ A simple Python package that wraps existing model fine-tuning and generation scr
 
 You can use gpt-2-simple to retrain a model using a GPU **for free** in [this Colaboratory notebook](https://colab.research.google.com/drive/1VLG8e7YSEwypxU-noRNhsv5dW4NfTGce)
 
-**only required if you don't want to use the Colaboratory notebook**
+**only required if you want to use the post_tweets.py file to post your tweets**
 
 gpt-2-simple can be installed [via PyPI](https://pypi.org/project/gpt_2_simple/):
 
