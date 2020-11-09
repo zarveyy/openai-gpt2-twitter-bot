@@ -1,6 +1,6 @@
 # open ai gpt2 twitter bot
 
-A simple twitter bot, trained on [this](https://github.com/zarveyy/openai-gtp2-twitter-bot/blob/main/Train_a_GPT_2_Model_on_Tweets.ipynb) openai gpt-2-simple model.
+A simple twitter bot, trained on [this](https://github.com/zarveyy/openai-gtp2-twitter-bot/blob/main/Train_a_GPT_2_Model_on_Tweets.ipynb) gpt-2-simple model.
 
 ## Requirements
 Create a Twitter application and generate a Consumer Key, Consumer Secret, Access Token, and Access Token Secret.
